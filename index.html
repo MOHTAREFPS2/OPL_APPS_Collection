@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>الشرح التفصيلي لتطبيقات mohtaref_ps2</title>
+    <style>
+        body { font-family: 'Tahoma', sans-serif; background-color: #f4f4f9; padding: 20px; direction: rtl; }
+        .header { background-color: #1a1a2e; color: white; padding: 20px; text-align: center; border-radius: 10px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        th, td { padding: 12px; border: 1px solid #ddd; text-align: right; }
+        th { background-color: #4ecca3; color: white; position: sticky; top: 0; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .tag { padding: 4px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; }
+        .tag-system { background: #e1f5fe; color: #01579b; }
+        .tag-game { background: #f3e5f5; color: #4a148c; }
+        .tag-cheat { background: #fff3e0; color: #e65100; }
+        .tag-emu { background: #e8f5e9; color: #1b5e20; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>شرح و تفصيل لتجميعة التطبيقات على<br> واجهة OPL لجهاز البلاي سيتشن 2</h1>
+    <p>حصري من محترف PS2</p>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>اسم التطبيق</th>
+            <th>التصنيف</th>
+            <th>الفائدة والوظيفة</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- أدوات النظام -->
+        <tr><td>BOOT-APPS / ULE-APPS</td><td><span class="tag tag-system">نظام</span></td><td>مشغل ملفات uLaunchELF، الأداة الأساسية لتصفح ملفات الميموري كارد والفلاش ميموري.</td></tr>
+        <tr><td>BOOT-EXFAT-DS34</td><td><span class="tag tag-system">نظام</span></td><td>نسخة uLaunchELF تدعم الفلاشات بصيغة ExFAT وأيدي تحكم PS3/PS4.</td></tr>
+        <tr><td>FMCBInstaller</td><td><span class="tag tag-system">نظام</span></td><td>برنامج تثبيت تعديلة Free McBoot على الميموري كارد.</td></tr>
+        <tr><td>FMCB_CFG</td><td><span class="tag tag-system">نظام</span></td><td>أداة ضبط إعدادات القائمة الرئيسية للبلايستيشن (تغيير الألوان والمسارات).</td></tr>
+        <tr><td>FunTuna-Fork_Installer</td><td><span class="tag tag-system">نظام</span></td><td>مثبت تعديلة FunTuna المخصصة لأجهزة PS2 Slim (الموديلات الحديثة 9000x).</td></tr>
+        <tr><td>GSM</td><td><span class="tag tag-system">نظام</span></td><td>أداة لرفع دقة الألعاب إلى 720p أو 1080i وتحسين جودة الصورة.</td></tr>
+        <tr><td>HDDChecker</td><td><span class="tag tag-system">نظام</span></td><td>لفحص وإصلاح الأخطاء في الهاردسك الداخلي (للأجهزة الكبيرة Fat).</td></tr>
+        <tr><td>MC_ANIHILATOR / MC_FORMAT</td><td><span class="tag tag-system">نظام</span></td><td>أدوات لفرمتة الميموري كارد المستعصية أو تغيير سعتها.</td></tr>
+        <tr><td>PS2Ident</td><td><span class="tag tag-system">نظام</span></td><td>يعطيك معلومات تفصيلية عن جهازك (نوع اللوحة الأم، إصدار العدسة، وتاريخ الصنع).</td></tr>
+        
+        <!-- مشغلات الألعاب -->
+        <tr><td>OPL-Latest-Beta / Stable</td><td><span class="tag tag-game">مشغل ألعاب</span></td><td>Open PS2 Loader - البرنامج الأفضل لتشغيل الألعاب من الـ USB أو الهاردسك.</td></tr>
+        <tr><td>PS2ESDL (بأنواعه)</td><td><span class="tag tag-game">مشغل ألعاب</span></td><td>مشغل ألعاب قديم نوعاً ما، يُستخدم للألعاب التي لا تعمل على OPL.</td></tr>
+        <tr><td>PS2LINK</td><td><span class="tag tag-system">نظام</span></td><td>أداة للمطورين لربط البلايستيشن بالكمبيوتر عبر كابل الشبكة لتجربة البرامج.</td></tr>
+
+        <!-- أدوات الغش -->
+        <tr><td>CheatDevice (بأنواعه)</td><td><span class="tag tag-cheat">غش</span></td><td>برنامج حديث لوضع شفرات الألعاب (فلوس، طاقة، أسلحة) ويدعم مناطق اليابان، أوروبا، وأمريكا.</td></tr>
+        <tr><td>code-breaker-v10</td><td><span class="tag tag-cheat">غش</span></td><td>أشهر برنامج شفرات كلاسيكي يعمل من الفلاش ميموري.</td></tr>
+
+        <!-- المحاكيات -->
+        <tr><td>PGEN / PicoDrive</td><td><span class="tag tag-emu">محاكي</span></td><td>تشغيل ألعاب جهاز "سيجا جينيسيس" (Sega Genesis).</td></tr>
+        <tr><td>SNES-Station / SNES_EMU</td><td><span class="tag tag-emu">محاكي</span></td><td>تشغيل ألعاب جهاز "كمبيوتر العائلة الخارق" (Super Nintendo).</td></tr>
+        <tr><td>PS2InfoGB / fceu</td><td><span class="tag tag-emu">محاكي</span></td><td>تشغيل ألعاب الجيم بوي (Game Boy) ونينتندو القديم (NES).</td></tr>
+        <tr><td>ps2psxe</td><td><span class="tag tag-emu">محاكي</span></td><td>محاكي تشغيل ألعاب بلايستيشن 1 (PS1).</td></tr>
+        <tr><td>retroarch</td><td><span class="tag tag-emu">محاكي</span></td><td>محاكي شامل يحتوي على عدة أجهزة قديمة في برنامج واحد.</td></tr>
+        <tr><td>PVCS-Reloaded</td><td><span class="tag tag-emu">محاكي</span></td><td>محاكي جهاز أتاري (Atari 2600).</td></tr>
+
+        <!-- ألعاب مباشرة ELF -->
+        <tr><td>Tyracraft</td><td><span class="tag tag-game">لعبة</span></td><td>نسخة مصغرة من لعبة Minecraft مبرمجة لتعمل على PS2.</td></tr>
+        <tr><td>ps2doom (بأنواعه)</td><td><span class="tag tag-game">لعبة</span></td><td>سلسلة ألعاب Doom الشهيرة (الجزء الأول، الثاني، وتوسعات TNT).</td></tr>
+        <tr><td>Kahtzee / xump / tetris</td><td><span class="tag tag-game">لعبة</span></td><td>ألعاب بسيطة (بازل، تيتريس) تعمل كبرامج مستقلة.</td></tr>
+        
+        <!-- ميديا -->
+        <tr><td>SMS (Simple Media System)</td><td><span class="tag tag-system">ميديا</span></td><td>أفضل مشغل للأفلام والأغاني والصور على PS2.</td></tr>
+    </tbody>
+</table>
+
+<p style="text-align: center;">يمكنك مراجعة كل أداة على <a href="https://www.psx-place.com">PSX-Place</a> لمزيد من التفاصيل التقنية.</p>
+
+</body>
+</html>
